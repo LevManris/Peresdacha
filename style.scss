@@ -1,0 +1,59 @@
+// Переменные
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Стили для header
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 20px;
+
+    h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            display: inline;
+            margin-right: 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+// Стили для основного содержимого
+main {
+    padding: 20px;
+
+    section {
+        margin-bottom: 20px;
+
+        h2 {
+            color: $primary-color;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    }
+}
+
+// Стили для footer
+footer {
+    background-color: $secondary-color;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
